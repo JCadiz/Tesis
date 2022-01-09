@@ -3,7 +3,7 @@ import pulp
 
 # luego, se realiza la declaración inicial del problema
 
-modelo1 = pulp.LpProblem("Modelo1 MinSum",pulp.LpMinimize)
+modelo1 = pulp.LpProblem("Modelo1_MinSum",pulp.LpMinimize)
 
 # definimos las variables 
 
